@@ -4,6 +4,7 @@ body {
     width: 21cm;
     margin: auto auto;
     padding-left: 3em;
+    line-height: 130%;
 }
 
 header {
@@ -44,6 +45,10 @@ h3 {
     border-bottom-style: double;
     border-bottom-color: rgb(1, 1, 192);
     border-width: 4px;
+}
+
+abbr {
+    text-decoration-line: none;
 }
 
 .edu-list, .work-list {
