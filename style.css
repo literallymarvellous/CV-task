@@ -1,0 +1,58 @@
+body {
+    font-size: 95%;
+    text-align: center;
+    width: 21cm;
+    margin: auto auto;
+    padding-left: 3em;
+}
+
+header {
+    display: flex;
+    padding-top: 2em;
+    padding-left: 1em;
+}
+
+.tel {
+    color: lightblue;
+}
+
+h1 {
+    width: 10em;
+    text-shadow: 1px 1px 2px gray;
+}
+
+section {
+    padding-right: 2em;
+}
+
+.info {
+    width: 25em;
+    margin-left: 6em;
+    text-align: center;
+}
+
+main {
+    text-align: justify;
+    width: 45em;
+    margin: auto 2em;
+}
+
+h3 {
+    padding-right: 6em;
+    width: 32em;
+    text-transform: uppercase;
+    border-bottom-style: double;
+    border-bottom-color: rgb(1, 1, 192);
+    border-width: 4px;
+}
+
+.edu-list, .work-list {
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:1024px) {
+    body {
+        font-weight: 800;
+    }
+}
